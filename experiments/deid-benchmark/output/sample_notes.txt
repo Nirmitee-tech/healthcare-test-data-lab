@@ -1,0 +1,791 @@
+===== note 8ad9fe89-eabd-6a6f-5d5b-a7f021f840fe patient f95a6723-14a5-c4b6-78df-fa97f7ab361c
+ground truth: ["encounter_date:2009-03-14", "given_name:Roxann", "age_89_or_under:22"]
+
+2009-03-14
+
+# Chief Complaint
+- Shortness of Breath
+- Cough
+
+
+# History of Present Illness
+Roxann is a 22 year-old nonhispanic white female.
+
+# Social History
+Patient is married. Patient has never smoked.
+ Patient identifies as heterosexual.
+
+Patient comes from a high socioeconomic background.
+ Patient has a high school education.
+Patient currently has Humana.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+No Active Medications.
+
+# Assessment and Plan
+Patient is presenting with social isolation (finding). 
+
+
+## Plan
+
+
+===== note 14120409-3f3e-f220-c332-1b59c39ad84c patient ba419d35-0dfe-8af7-347c-eebf02485a56
+ground truth: ["encounter_date:2012-05-11", "full_name:Corie Sofia", "age_89_or_under:86", "age_89_or_under:16"]
+
+2012-05-11
+
+# Chief Complaint
+- Fatigue
+- Hunger
+- Frequent Urination
+
+
+# History of Present Illness
+Corie Sofia is a 86 year-old nonhispanic white female. Patient has a history of gingival disease (disorder), severe anxiety (panic) (finding), chronic kidney disease stage 3 (disorder), medication review due (situation), victim of intimate partner abuse (finding), chronic kidney disease stage 4 (disorder), part-time employment (finding), chronic kidney disease stage 2 (disorder), chronic kidney disease stage 1 (disorder), reports of violence in the environment (finding), full-time employment (finding), awaiting transplantation of kidney (situation), gingivitis (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has a documented history of opioid addiction. Patient quit smoking at age 16.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient has a high school education.
+Patient currently has Dual Eligible.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+lisinopril 10 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- renal dialysis (procedure)
+
+===== note 1d7c2739-bc2d-d7a0-05c4-8e80b62311b4 patient 62f60bdb-cc5c-8305-b98b-f2b229a55eca
+ground truth: ["encounter_date:2022-06-15", "full_name:Angel Rocio", "age_89_or_under:46"]
+
+2022-06-15
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Angel Rocio is a 46 year-old nonhispanic white female. Patient has a history of medication review due (situation), sore throat (finding), headache (finding), victim of intimate partner abuse (finding), misuses drugs (finding), viral sinusitis (disorder), complete miscarriage (disorder), normal pregnancy (finding), part-time employment (finding), fever (finding), sputum finding (finding), not in labor force (finding), limited social contact (finding), reports of violence in the environment (finding), miscarriage in first trimester (disorder), full-time employment (finding), anemia (disorder), cough (finding), loss of taste (finding), gingivitis (disorder), suspected disease caused by severe acute respiratory coronavirus 2 (situation), disease caused by severe acute respiratory syndrome coronavirus 2 (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has never smoked.
+ Patient identifies as heterosexual.
+
+Patient comes from a middle socioeconomic background.
+ Patient has completed some college courses.
+Patient currently has Blue Cross Blue Shield.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+{7 (ethinyl estradiol 0.035 mg / norgestimate 0.18 mg oral tablet) / 7 (ethinyl estradiol 0.035 mg / norgestimate 0.215 mg oral tablet) / 7 (ethinyl estradiol 0.035 mg / norgestimate 0.25 mg oral tablet) / 7 (inert ingredients 1 mg oral tablet) } pack [trinessa 28 day]; abuse-deterrent 12 hr oxycodone hydrochloride 10 mg extended release oral tablet [oxycontin]; {5 (dienogest 2 mg / estradiol valerate 2 mg oral tablet) / 17 (dienogest 3 mg / estradiol valerate 2 mg oral tablet) / 2 (estradiol valerate 1 mg oral tablet) / 2 (estradiol valerate 3 mg oral tablet) / 2 (inert ingredients 1 mg oral tablet) } pack [natazia 28 day]; acetaminophen 300 mg / codeine phosphate 15 mg oral tablet; 1 ml medroxyprogesterone acetate 150 mg/ml injection; 72 hr fentanyl 0.025 mg/hr transdermal system; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- intramuscular injection (procedure)
+
+===== note ed0ecf33-1468-7fa4-db93-d494af276e31 patient f32a088b-988b-d7d5-008b-89ea4ed1fc48
+ground truth: ["encounter_date:2018-01-31", "given_name:Wayne", "age_89_or_under:11"]
+
+2018-01-31
+
+# Chief Complaint
+- Chest Pressure
+- Shortness of Breath
+
+
+# History of Present Illness
+Wayne is a 11 year-old nonhispanic black male. Patient has a history of childhood asthma (disorder), medication review due (situation), perennial allergic rhinitis with seasonal variation (disorder), fracture of bone (disorder), fracture subluxation of wrist (disorder).
+
+# Social History
+ Patient has never smoked.
+
+
+Patient comes from a middle socioeconomic background.
+
+Patient currently has Medicaid.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+120 actuat fluticasone propionate 0.044 mg/actuat metered dose inhaler [flovent]; albuterol 0.83 mg/ml inhalation solution; acetaminophen 160 mg chewable tablet
+
+# Assessment and Plan
+Patient is presenting with gingivitis (disorder). 
+
+
+## Plan
+Patient was given the following immunizations: hpv, quadrivalent. 
+The following procedures were conducted:
+- patient referral for dental care (procedure)
+The patient was prescribed the following medications:
+- 120 actuat fluticasone propionate 0.044 mg/actuat metered dose inhaler [flovent]
+- albuterol 0.83 mg/ml inhalation solution
+
+===== note 693aad51-fa05-3e53-8406-443bb7708980 patient 14a5a697-29a3-48b2-969a-3ceefe74a700
+ground truth: ["encounter_date:2002-12-28", "full_name:Drusilla Cherilyn", "age_89_or_under:44"]
+
+2002-12-28
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Drusilla Cherilyn is a 44 year-old nonhispanic asian female. Patient has a history of limited social contact (finding).
+
+# Social History
+Patient is married. Patient has never smoked.
+ Patient identifies as heterosexual.
+
+Patient comes from a middle socioeconomic background.
+ Patient has a high school education.
+Patient currently has NO INSURANCE.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+No Active Medications.
+
+# Assessment and Plan
+Patient is presenting with loss of teeth (disorder). 
+
+
+## Plan
+
+
+===== note f918f9b2-0d60-1f11-148f-556daabc4a16 patient 7c913488-8c54-7aa0-a452-83dbc3ad8377
+ground truth: ["encounter_date:2017-11-21", "given_name:Dian", "age_89_or_under:5"]
+
+2017-11-21
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Dian is a 5 year-old nonhispanic white female. Patient has a history of gingival disease (disorder), medication review due (situation).
+
+# Social History
+ Patient has never smoked.
+
+
+Patient comes from a middle socioeconomic background.
+
+Patient currently has Anthem.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+Patient is presenting with viral sinusitis (disorder). 
+
+
+## Plan
+
+
+===== note a25079bd-f800-16d2-c267-ca4253e64381 patient ba419d35-0dfe-8af7-347c-eebf02485a56
+ground truth: ["encounter_date:2016-10-14", "full_name:Corie Sofia", "age_over_89:91", "age_89_or_under:16"]
+
+2016-10-14
+
+# Chief Complaint
+- Fatigue
+- Hunger
+- Frequent Urination
+
+
+# History of Present Illness
+Corie Sofia is a 91 year-old nonhispanic white female. Patient has a history of gingival disease (disorder), overdose (disorder), end-stage renal disease (disorder), severe anxiety (panic) (finding), chronic kidney disease stage 3 (disorder), medication review due (situation), unemployed (finding), victim of intimate partner abuse (finding), chronic kidney disease stage 4 (disorder), part-time employment (finding), acute bronchitis (disorder), chronic kidney disease stage 2 (disorder), limited social contact (finding), not in labor force (finding), chronic kidney disease stage 1 (disorder), reports of violence in the environment (finding), full-time employment (finding), awaiting transplantation of kidney (situation), dental filling lost (finding), gingivitis (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has a documented history of opioid addiction. Patient quit smoking at age 16.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient has a high school education.
+Patient currently has Dual Eligible.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+lisinopril 10 mg oral tablet; acetaminophen 325 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+Patient is presenting with history of renal transplant (situation). 
+
+
+## Plan
+
+The following procedures were conducted:
+- pretransplant evaluation of kidney recipient (procedure)
+- transplant of kidney (procedure)
+- transplantation of kidney regime (regime/therapy)
+- transplantation of kidney regime (regime/therapy)
+- transplantation of kidney regime (regime/therapy)
+- transplantation of kidney regime (regime/therapy)
+- transplantation of kidney regime (regime/therapy)
+The following lab reports were completed:
+- basic metabolic 2000 panel - serum or plasma
+- urinalysis macro (dipstick) panel - urine
+- basic metabolic panel - blood
+- cbc panel - blood by automated count
+- basic metabolic panel - blood
+- cbc panel - blood by automated count
+- basic metabolic panel - blood
+- cbc panel - blood by automated count
+- basic metabolic panel - blood
+- cbc panel - blood by automated count
+- basic metabolic panel - blood
+- cbc panel - blood by automated count
+The patient was prescribed the following medications:
+- 1 ml tacrolimus 5 mg/ml injection [prograf]
+- 1 ml tacrolimus 5 mg/ml injection [prograf]
+- 1 ml tacrolimus 5 mg/ml injection [prograf]
+- 1 ml tacrolimus 5 mg/ml injection [prograf]
+- 1 ml tacrolimus 5 mg/ml injection [prograf]
+- 1 ml tacrolimus 5 mg/ml injection [prograf]
+- 24 hr tacrolimus 1 mg extended release oral tablet [envarsus]
+
+===== note e74bb748-81c5-b6dc-67a8-f999f15e6999 patient ba419d35-0dfe-8af7-347c-eebf02485a56
+ground truth: ["encounter_date:2013-06-07", "full_name:Corie Sofia", "age_89_or_under:87", "age_89_or_under:16"]
+
+2013-06-07
+
+# Chief Complaint
+- Fatigue
+- Hunger
+- Frequent Urination
+
+
+# History of Present Illness
+Corie Sofia is a 87 year-old nonhispanic white female. Patient has a history of gingival disease (disorder), overdose (disorder), severe anxiety (panic) (finding), chronic kidney disease stage 3 (disorder), medication review due (situation), unemployed (finding), victim of intimate partner abuse (finding), chronic kidney disease stage 4 (disorder), part-time employment (finding), chronic kidney disease stage 2 (disorder), chronic kidney disease stage 1 (disorder), reports of violence in the environment (finding), full-time employment (finding), awaiting transplantation of kidney (situation), gingivitis (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has a documented history of opioid addiction. Patient quit smoking at age 16.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient has a high school education.
+Patient currently has Dual Eligible.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+lisinopril 10 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- dental consultation and report (procedure)
+- dental care (regime/therapy)
+- removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)
+- removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)
+- dental plain x-ray bitewing (procedure)
+- examination of gingivae (procedure)
+- oral health education (procedure)
+
+===== note b6eb7f5d-674a-7fd1-9f51-5bb70edda8af patient 5e688e99-61b3-5c88-3f60-21df8aaced27
+ground truth: ["encounter_date:2021-02-11", "given_name:Wallace", "age_89_or_under:11"]
+
+2021-02-11
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Wallace is a 11 year-old nonhispanic native male. Patient has a history of acute bronchitis (disorder), medication review due (situation), sinusitis (disorder).
+
+# Social History
+ Patient has never smoked.
+
+
+Patient comes from a low socioeconomic background.
+
+Patient currently has Medicaid.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+acetaminophen 325 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+Patient was given the following immunizations: tdap, influenza, split virus, trivalent, pf, hpv, quadrivalent, meningococcal mcv4p. 
+The following lab reports were completed:
+- cbc panel - blood by automated count
+
+===== note de7b3beb-3454-20e8-f4d2-cbf6dc9e4edb patient ba419d35-0dfe-8af7-347c-eebf02485a56
+ground truth: ["encounter_date:2012-01-12", "full_name:Corie Sofia", "age_89_or_under:86", "age_89_or_under:16"]
+
+2012-01-12
+
+# Chief Complaint
+- Fatigue
+- Hunger
+- Frequent Urination
+
+
+# History of Present Illness
+Corie Sofia is a 86 year-old nonhispanic white female. Patient has a history of gingival disease (disorder), severe anxiety (panic) (finding), chronic kidney disease stage 3 (disorder), medication review due (situation), victim of intimate partner abuse (finding), chronic kidney disease stage 4 (disorder), part-time employment (finding), chronic kidney disease stage 2 (disorder), chronic kidney disease stage 1 (disorder), reports of violence in the environment (finding), full-time employment (finding), awaiting transplantation of kidney (situation), gingivitis (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has a documented history of opioid addiction. Patient quit smoking at age 16.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient has a high school education.
+Patient currently has Dual Eligible.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+lisinopril 10 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- renal dialysis (procedure)
+
+===== note 4b539144-687b-63bb-a79e-796b4e805cb5 patient a2fb233f-60e0-b477-cd38-af3923f792a3
+ground truth: ["encounter_date:2023-12-18", "given_name:Tanner", "age_89_or_under:61", "age_89_or_under:18"]
+
+2023-12-18
+
+# Chief Complaint
+- Frequent Urination
+- Hunger
+- Thirst
+
+
+# History of Present Illness
+Tanner is a 61 year-old nonhispanic white male. Patient has a history of medication review due (situation), not in labor force (finding), full-time employment (finding), victim of intimate partner abuse (finding), viral sinusitis (disorder), acute infective cystitis (disorder), social isolation (finding), stress (finding).
+
+# Social History
+Patient is married. Patient quit smoking at age 18 and is an alcoholic.
+ Patient identifies as heterosexual.
+
+Patient comes from a middle socioeconomic background.
+ Patient has completed some college courses.
+Patient currently has Aetna.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+amlodipine 2.5 mg oral tablet; sulfamethoxazole 800 mg / trimethoprim 160 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+
+===== note fbec6ddc-9d33-7b59-ea79-5c61a2951618 patient f32a088b-988b-d7d5-008b-89ea4ed1fc48
+ground truth: ["encounter_date:2016-12-31", "given_name:Wayne", "age_89_or_under:10"]
+
+2016-12-31
+
+# Chief Complaint
+- Chest Pressure
+- Shortness of Breath
+
+
+# History of Present Illness
+Wayne is a 10 year-old nonhispanic black male. Patient has a history of childhood asthma (disorder), medication review due (situation), perennial allergic rhinitis with seasonal variation (disorder).
+
+# Social History
+ Patient has never smoked.
+
+
+Patient comes from a middle socioeconomic background.
+
+Patient currently has Medicaid.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+120 actuat fluticasone propionate 0.044 mg/actuat metered dose inhaler [flovent]; albuterol 0.83 mg/ml inhalation solution
+
+# Assessment and Plan
+Patient is presenting with fracture of bone (disorder), fracture subluxation of wrist (disorder). 
+
+
+## Plan
+
+The following procedures were conducted:
+- plain x-ray of wrist region (procedure)
+- bone immobilization (procedure)
+The patient was prescribed the following medications:
+- acetaminophen 160 mg chewable tablet
+The patient was placed on a careplan:
+- fracture care (regime/therapy)
+
+===== note 30a15283-7c9d-3456-a41a-d11f048b5825 patient 7811dc30-8c86-8164-6c33-6b6f464745ef
+ground truth: ["encounter_date:2017-10-25", "given_name:Mignon", "age_89_or_under:47"]
+
+2017-10-25
+
+# Chief Complaint
+- Tingling in Hands and Feet
+- Blurred Vision
+- Chest Pressure
+
+
+# History of Present Illness
+Mignon is a 47 year-old nonhispanic asian female. Patient has a history of gingival disease (disorder), acute bronchitis (disorder), medication review due (situation), laceration of forearm (disorder), full-time employment (finding), laceration - injury (disorder), gingivitis (disorder), stress (finding).
+
+# Social History
+Patient is married. Patient has never smoked.
+ Patient identifies as heterosexual.
+
+Patient comes from a high socioeconomic background.
+ Patient has completed some college courses.
+Patient currently has UnitedHealthcare.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+tropicamide 5 mg/ml ophthalmic solution; acetaminophen 325 mg oral tablet; budesonide 0.125 mg/ml inhalation suspension; 24 hr metformin hydrochloride 500 mg extended release oral tablet; albuterol 0.83 mg/ml inhalation solution; naproxen sodium 220 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- visual acuity testing (procedure)
+- intraocular pressure test (procedure)
+- ocular slit lamp examination (procedure)
+- indirect gonioscopy (procedure)
+- camera fundoscopy (procedure)
+- diabetic retinal eye exam (procedure)
+- optical coherence tomography of retina (procedure)
+The following lab reports were completed:
+- optical coherence tomography study
+The patient was prescribed the following medications:
+- tropicamide 5 mg/ml ophthalmic solution
+
+===== note c657570b-5982-d559-3f58-118ffc6206bf patient ba419d35-0dfe-8af7-347c-eebf02485a56
+ground truth: ["encounter_date:1990-02-16", "full_name:Corie Sofia", "age_89_or_under:64", "age_89_or_under:16"]
+
+1990-02-16
+
+# Chief Complaint
+- Fatigue
+- Hunger
+- Frequent Urination
+
+
+# History of Present Illness
+Corie Sofia is a 64 year-old nonhispanic white female.
+
+# Social History
+Patient is single. Patient has a documented history of opioid addiction. Patient quit smoking at age 16.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient has a high school education.
+Patient currently has Medicaid.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+No Active Medications.
+
+# Assessment and Plan
+Patient is presenting with chronic intractable migraine without aura (disorder). 
+
+
+## Plan
+
+
+===== note ca5b9d8e-7576-500a-b975-30410832ba77 patient b6a1cac9-8873-36a7-e726-4aad8a07d44d
+ground truth: ["encounter_date:2025-04-29", "given_name:Renaldo", "age_89_or_under:32"]
+
+2025-04-29
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Renaldo is a 32 year-old nonhispanic white male. Patient has a history of overdose (disorder), contact dermatitis (disorder), medication review due (situation), limited social contact (finding), primary dental caries (disorder), victim of intimate partner abuse (finding), viral sinusitis (disorder), gingivitis (disorder), social isolation (finding), stress (finding).
+
+# Social History
+Patient is married. Patient has a documented history of opioid addiction. Patient has never smoked.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient did not finish high school.
+Patient currently has Medicaid.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+amoxicillin 250 mg / clavulanate 125 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- rehabilitation therapy (regime/therapy)
+
+===== note b785742c-c3a0-3bb3-7138-202a87855010 patient 26aa011e-0d75-d1a3-3c5a-560a9450cc9d
+ground truth: ["encounter_date:2022-03-05", "given_name:Jesse", "age_89_or_under:11"]
+
+2022-03-05
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Jesse is a 11 year-old nonhispanic white male. Patient has a history of sprain (morphologic abnormality), medication review due (situation), primary dental caries (disorder), acute viral pharyngitis (disorder), sprain of ankle (disorder), gingivitis (disorder).
+
+# Social History
+ Patient has never smoked.
+
+
+Patient comes from a middle socioeconomic background.
+
+Patient currently has Cigna Health.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+sodium fluoride 0.0272 mg/mg oral gel; acetaminophen 160 mg chewable tablet
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- history and physical examination (procedure)
+- initial patient assessment (procedure)
+- development of individualized plan of care (procedure)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- professional / ancillary services care (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- occupational therapy (regime/therapy)
+- professional / ancillary services care (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- professional / ancillary services care (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- professional / ancillary services care (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- professional / ancillary services care (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- nursing care/supplementary surveillance (regime/therapy)
+- professional / ancillary services care (regime/therapy)
+- pre-discharge assessment (procedure)
+- discharge from hospital (procedure)
+
+===== note 99e94f84-bd84-72f1-dc66-5891a663b198 patient 62f60bdb-cc5c-8305-b98b-f2b229a55eca
+ground truth: ["encounter_date:2026-04-22", "full_name:Angel Rocio", "age_89_or_under:50"]
+
+2026-04-22
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Angel Rocio is a 50 year-old nonhispanic white female. Patient has a history of medication review due (situation), victim of intimate partner abuse (finding), fever (finding), not in labor force (finding), primary dental caries (disorder), miscarriage in first trimester (disorder), cough (finding), loss of taste (finding), gingivitis (disorder), suspected disease caused by severe acute respiratory coronavirus 2 (situation), sore throat (finding), headache (finding), misuses drugs (finding), viral sinusitis (disorder), complete miscarriage (disorder), normal pregnancy (finding), part-time employment (finding), sputum finding (finding), limited social contact (finding), reports of violence in the environment (finding), full-time employment (finding), anemia (disorder), disease caused by severe acute respiratory syndrome coronavirus 2 (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has never smoked.
+ Patient identifies as heterosexual.
+
+Patient comes from a middle socioeconomic background.
+ Patient has completed some college courses.
+Patient currently has Blue Cross Blue Shield.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+{7 (ethinyl estradiol 0.035 mg / norgestimate 0.18 mg oral tablet) / 7 (ethinyl estradiol 0.035 mg / norgestimate 0.215 mg oral tablet) / 7 (ethinyl estradiol 0.035 mg / norgestimate 0.25 mg oral tablet) / 7 (inert ingredients 1 mg oral tablet) } pack [trinessa 28 day]; abuse-deterrent 12 hr oxycodone hydrochloride 10 mg extended release oral tablet [oxycontin]; {5 (dienogest 2 mg / estradiol valerate 2 mg oral tablet) / 17 (dienogest 3 mg / estradiol valerate 2 mg oral tablet) / 2 (estradiol valerate 1 mg oral tablet) / 2 (estradiol valerate 3 mg oral tablet) / 2 (inert ingredients 1 mg oral tablet) } pack [natazia 28 day]; {7 (ethinyl estradiol 0.01 mg oral tablet) / 84 (ethinyl estradiol 0.03 mg / levonorgestrel 0.15 mg oral tablet) } pack [seasonique]; {21 (ethinyl estradiol 0.03 mg / levonorgestrel 0.15 mg oral tablet) / 7 (inert ingredients 1 mg oral tablet) } pack [levora 0.15/30 28 day]; acetaminophen 300 mg / codeine phosphate 15 mg oral tablet; 1 ml medroxyprogesterone acetate 150 mg/ml injection; 72 hr fentanyl 0.025 mg/hr transdermal system; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+Patient is presenting with full-time employment (finding). 
+
+
+## Plan
+Patient was given the following immunizations: zoster vaccine, live, influenza, split virus, trivalent, pf. 
+The following procedures were conducted:
+- medication reconciliation (procedure)
+- assessment of health and social care needs (procedure)
+- assessment of substance use (procedure)
+- screening for drug abuse (procedure)
+The following lab reports were completed:
+- basic metabolic panel - blood
+- drug abuse screening test-10 [dast-10]
+The patient was prescribed the following medications:
+- acetaminophen 300 mg / codeine phosphate 15 mg oral tablet
+- abuse-deterrent 12 hr oxycodone hydrochloride 10 mg extended release oral tablet [oxycontin]
+- 72 hr fentanyl 0.025 mg/hr transdermal system
+
+===== note b7823ae9-3291-0935-56c4-7e236a60b306 patient 62f60bdb-cc5c-8305-b98b-f2b229a55eca
+ground truth: ["encounter_date:2025-06-11", "full_name:Angel Rocio", "age_89_or_under:49"]
+
+2025-06-11
+
+# Chief Complaint
+No complaints.
+
+# History of Present Illness
+Angel Rocio is a 49 year-old nonhispanic white female. Patient has a history of medication review due (situation), victim of intimate partner abuse (finding), fever (finding), not in labor force (finding), primary dental caries (disorder), miscarriage in first trimester (disorder), cough (finding), loss of taste (finding), gingivitis (disorder), suspected disease caused by severe acute respiratory coronavirus 2 (situation), sore throat (finding), headache (finding), misuses drugs (finding), viral sinusitis (disorder), complete miscarriage (disorder), normal pregnancy (finding), part-time employment (finding), sputum finding (finding), limited social contact (finding), reports of violence in the environment (finding), full-time employment (finding), anemia (disorder), disease caused by severe acute respiratory syndrome coronavirus 2 (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has never smoked.
+ Patient identifies as heterosexual.
+
+Patient comes from a middle socioeconomic background.
+ Patient has completed some college courses.
+Patient currently has Blue Cross Blue Shield.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+{7 (ethinyl estradiol 0.035 mg / norgestimate 0.18 mg oral tablet) / 7 (ethinyl estradiol 0.035 mg / norgestimate 0.215 mg oral tablet) / 7 (ethinyl estradiol 0.035 mg / norgestimate 0.25 mg oral tablet) / 7 (inert ingredients 1 mg oral tablet) } pack [trinessa 28 day]; abuse-deterrent 12 hr oxycodone hydrochloride 10 mg extended release oral tablet [oxycontin]; {5 (dienogest 2 mg / estradiol valerate 2 mg oral tablet) / 17 (dienogest 3 mg / estradiol valerate 2 mg oral tablet) / 2 (estradiol valerate 1 mg oral tablet) / 2 (estradiol valerate 3 mg oral tablet) / 2 (inert ingredients 1 mg oral tablet) } pack [natazia 28 day]; {7 (ethinyl estradiol 0.01 mg oral tablet) / 84 (ethinyl estradiol 0.03 mg / levonorgestrel 0.15 mg oral tablet) } pack [seasonique]; acetaminophen 300 mg / codeine phosphate 15 mg oral tablet; 1 ml medroxyprogesterone acetate 150 mg/ml injection; 72 hr fentanyl 0.025 mg/hr transdermal system; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- intramuscular injection (procedure)
+
+===== note 6f508eed-a7f6-e2d6-5963-1a6a6d8cc6d9 patient ba419d35-0dfe-8af7-347c-eebf02485a56
+ground truth: ["encounter_date:2011-08-25", "full_name:Corie Sofia", "age_89_or_under:85", "age_89_or_under:16"]
+
+2011-08-25
+
+# Chief Complaint
+- Fatigue
+- Hunger
+- Frequent Urination
+
+
+# History of Present Illness
+Corie Sofia is a 85 year-old nonhispanic white female. Patient has a history of gingival disease (disorder), part-time employment (finding), chronic kidney disease stage 3 (disorder), medication review due (situation), chronic kidney disease stage 2 (disorder), chronic kidney disease stage 1 (disorder), reports of violence in the environment (finding), full-time employment (finding), victim of intimate partner abuse (finding), gingivitis (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has a documented history of opioid addiction. Patient quit smoking at age 16.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient has a high school education.
+Patient currently has Dual Eligible.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+lisinopril 10 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- renal dialysis (procedure)
+
+===== note 8475d708-1d19-5940-04d3-19598cb20bfd patient ba419d35-0dfe-8af7-347c-eebf02485a56
+ground truth: ["encounter_date:2016-08-01", "full_name:Corie Sofia", "age_over_89:90", "age_89_or_under:16"]
+
+2016-08-01
+
+# Chief Complaint
+- Fatigue
+- Hunger
+- Frequent Urination
+
+
+# History of Present Illness
+Corie Sofia is a 90 year-old nonhispanic white female. Patient has a history of gingival disease (disorder), overdose (disorder), end-stage renal disease (disorder), severe anxiety (panic) (finding), chronic kidney disease stage 3 (disorder), medication review due (situation), unemployed (finding), victim of intimate partner abuse (finding), chronic kidney disease stage 4 (disorder), part-time employment (finding), acute bronchitis (disorder), chronic kidney disease stage 2 (disorder), limited social contact (finding), not in labor force (finding), chronic kidney disease stage 1 (disorder), reports of violence in the environment (finding), full-time employment (finding), awaiting transplantation of kidney (situation), dental filling lost (finding), gingivitis (disorder), stress (finding), social isolation (finding).
+
+# Social History
+Patient is single. Patient has a documented history of opioid addiction. Patient quit smoking at age 16.
+ Patient identifies as heterosexual.
+
+Patient comes from a low socioeconomic background.
+ Patient has a high school education.
+Patient currently has Dual Eligible.
+
+# Allergies
+No Known Allergies.
+
+# Medications
+lisinopril 10 mg oral tablet; acetaminophen 325 mg oral tablet; sodium fluoride 0.0272 mg/mg oral gel
+
+# Assessment and Plan
+
+
+
+## Plan
+
+The following procedures were conducted:
+- renal dialysis (procedure)
+

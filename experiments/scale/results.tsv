@@ -1,0 +1,6 @@
+variant	patients_requested	records	seconds	fhir_bytes	files
+default_10y_history	200	228	27	756425617	228
+no_pretty	200	228	22	756425649	228
+full_history	200	228	57	2057731139	228
+history_2y	200	228	19	205873911	228
+bulk_ndjson	200	228	19	501637654	21

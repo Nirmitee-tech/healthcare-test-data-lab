@@ -1,0 +1,9 @@
+<com.mirth.connect.plugins.mllpmode.MLLPModeProperties>
+  <pluginPointName>MLLP</pluginPointName>
+  <startOfMessageBytes>0B</startOfMessageBytes>
+  <endOfMessageBytes>1C0D</endOfMessageBytes>
+  <useMLLPv2>false</useMLLPv2>
+  <ackBytes>06</ackBytes>
+  <nackBytes>15</nackBytes>
+  <maxRetries>2</maxRetries>
+</com.mirth.connect.plugins.mllpmode.MLLPModeProperties>

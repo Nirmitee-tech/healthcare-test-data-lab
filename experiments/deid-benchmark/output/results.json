@@ -1,0 +1,1438 @@
+{
+  "scope": {
+    "data": "out/run/fhir-clean (scrubbed), Synthea seed 42",
+    "unit": "note (DocumentReference copy; DiagnosticReport copy is identical)",
+    "load_stats": {
+      "bundles": 56,
+      "docref_notes": 3147,
+      "diagreport_copies": 3147,
+      "diagreport_identical": 3147
+    },
+    "notes": 3147,
+    "patients": 56,
+    "python": "3.11.15"
+  },
+  "systems": {
+    "regex": {
+      "versions": null,
+      "seconds": 0.2,
+      "threshold_none": {
+        "recall_by_type": {
+          "given_name": {
+            "found": 0,
+            "total": 2001,
+            "recall": 0.0,
+            "labels_used": {}
+          },
+          "full_name": {
+            "found": 0,
+            "total": 1146,
+            "recall": 0.0,
+            "labels_used": {}
+          },
+          "encounter_date": {
+            "found": 3141,
+            "total": 3141,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE": 3141
+            }
+          },
+          "birth_date": {
+            "found": 5,
+            "total": 5,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE": 5
+            }
+          },
+          "death_date": {
+            "found": 1,
+            "total": 1,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE": 1
+            }
+          },
+          "age_over_89": {
+            "found": 233,
+            "total": 233,
+            "recall": 1.0,
+            "labels_used": {
+              "AGE": 233
+            }
+          },
+          "age_89_or_under": {
+            "found": 3936,
+            "total": 3936,
+            "recall": 1.0,
+            "labels_used": {
+              "AGE": 3936
+            }
+          }
+        },
+        "phi_spans_total": 6527,
+        "phi_spans_found": 3380,
+        "notes_fully_covered": 0,
+        "notes": 3147,
+        "flagged_spans": 7316,
+        "flagged_on_phi": 3380,
+        "flagged_on_age_89_or_under": 3936,
+        "false_positives": 0,
+        "precision_phi_only": 0.462,
+        "precision_counting_young_ages_as_ok": 1.0,
+        "false_positive_labels": {},
+        "false_positive_top_texts": {},
+        "missed_examples": {
+          "full_name": [
+            "'Agnes Laree' in: Agnes Laree is a 4 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 18 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 20 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 27 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 28 year-old nonhispanic white female."
+          ],
+          "given_name": [
+            "'Aron' in: Aron is a 12 year-old nonhispanic white male.",
+            "'Aron' in: Aron is a 13 year-old nonhispanic white male.",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding).",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding), medication r",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding), medication r"
+          ]
+        },
+        "patients_with_name_mentions": 56,
+        "patients_with_any_missed_name": 56,
+        "patients_with_all_names_missed": 56,
+        "missed_name_values_top": [
+          [
+            "Corie Sofia",
+            591
+          ],
+          [
+            "Evangeline Lissa",
+            170
+          ],
+          [
+            "Renaldo",
+            112
+          ],
+          [
+            "Tennille",
+            109
+          ],
+          [
+            "Carita",
+            101
+          ],
+          [
+            "Rosalba",
+            101
+          ],
+          [
+            "Wayne",
+            100
+          ],
+          [
+            "Virgie",
+            88
+          ],
+          [
+            "Lavette",
+            87
+          ],
+          [
+            "Jody",
+            81
+          ],
+          [
+            "Drusilla Cherilyn",
+            74
+          ],
+          [
+            "Mignon",
+            74
+          ],
+          [
+            "Angel Rocio",
+            69
+          ],
+          [
+            "Donnetta",
+            68
+          ],
+          [
+            "Larissa",
+            66
+          ]
+        ]
+      }
+    },
+    "presidio_lg": {
+      "versions": {
+        "presidio-analyzer": "2.2.364",
+        "spacy": "3.8.16",
+        "en_core_web_lg": "3.8.0"
+      },
+      "seconds": 123.0,
+      "threshold_none": {
+        "recall_by_type": {
+          "given_name": {
+            "found": 425,
+            "total": 2001,
+            "recall": 0.2124,
+            "labels_used": {
+              "PERSON": 336,
+              "LOCATION": 63,
+              "ORGANIZATION": 26
+            }
+          },
+          "full_name": {
+            "found": 1146,
+            "total": 1146,
+            "recall": 1.0,
+            "labels_used": {
+              "PERSON": 1121,
+              "ORGANIZATION": 25
+            }
+          },
+          "encounter_date": {
+            "found": 3141,
+            "total": 3141,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3141
+            }
+          },
+          "birth_date": {
+            "found": 5,
+            "total": 5,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 5
+            }
+          },
+          "death_date": {
+            "found": 1,
+            "total": 1,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 1
+            }
+          },
+          "age_over_89": {
+            "found": 233,
+            "total": 233,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 233
+            }
+          },
+          "age_89_or_under": {
+            "found": 3936,
+            "total": 3936,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3936
+            }
+          }
+        },
+        "phi_spans_total": 6527,
+        "phi_spans_found": 4951,
+        "notes_fully_covered": 1571,
+        "notes": 3147,
+        "flagged_spans": 14868,
+        "flagged_on_phi": 4958,
+        "flagged_on_age_89_or_under": 3936,
+        "false_positives": 5974,
+        "precision_phi_only": 0.3335,
+        "precision_counting_young_ages_as_ok": 0.5982,
+        "false_positive_labels": {
+          "ORGANIZATION": 3644,
+          "DATE_TIME": 1251,
+          "NRP": 383,
+          "LOCATION": 358,
+          "US_DRIVER_LICENSE": 151,
+          "URL": 109,
+          "PERSON": 78
+        },
+        "false_positive_top_texts": {
+          "ORGANIZATION": [
+            [
+              "Dual Eligible",
+              858
+            ],
+            [
+              "Medicaid",
+              731
+            ],
+            [
+              "Medicare",
+              435
+            ],
+            [
+              "unt/ml",
+              354
+            ],
+            [
+              "Humana",
+              327
+            ],
+            [
+              "NO INSURANCE",
+              168
+            ],
+            [
+              "UnitedHealthcare",
+              166
+            ],
+            [
+              "pf",
+              158
+            ]
+          ],
+          "DATE_TIME": [
+            [
+              "28 day",
+              604
+            ],
+            [
+              "2000",
+              190
+            ],
+            [
+              "0.15/30 28 day",
+              149
+            ],
+            [
+              "test-10",
+              91
+            ],
+            [
+              "dast-10",
+              91
+            ],
+            [
+              "24 hr",
+              33
+            ],
+            [
+              "21 day",
+              32
+            ],
+            [
+              "72 hr fentanyl 0.025 mg/hr",
+              12
+            ]
+          ],
+          "URL": [
+            [
+              "reported.ph",
+              86
+            ],
+            [
+              "i.car",
+              23
+            ]
+          ],
+          "LOCATION": [
+            [
+              "Anthem",
+              202
+            ],
+            [
+              "covid-19",
+              72
+            ],
+            [
+              "mrna",
+              62
+            ],
+            [
+              "tdap",
+              15
+            ],
+            [
+              "u.s.",
+              5
+            ],
+            [
+              "new york",
+              2
+            ]
+          ],
+          "PERSON": [
+            [
+              "lnp-s",
+              62
+            ],
+            [
+              "hib",
+              15
+            ],
+            [
+              "bee venom",
+              1
+            ]
+          ],
+          "US_DRIVER_LICENSE": [
+            [
+              "000813",
+              60
+            ],
+            [
+              "000729",
+              44
+            ],
+            [
+              "000625",
+              32
+            ],
+            [
+              "000833",
+              10
+            ],
+            [
+              "b12",
+              5
+            ]
+          ],
+          "NRP": [
+            [
+              "asian",
+              163
+            ],
+            [
+              "hispanic",
+              116
+            ],
+            [
+              "nonhispanic asian",
+              104
+            ]
+          ]
+        },
+        "missed_examples": {
+          "given_name": [
+            "'Aron' in: Aron is a 12 year-old nonhispanic white male.",
+            "'Aron' in: Aron is a 13 year-old nonhispanic white male.",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding).",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding), medication r",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding), medication r"
+          ]
+        },
+        "patients_with_name_mentions": 56,
+        "patients_with_any_missed_name": 38,
+        "patients_with_all_names_missed": 35,
+        "missed_name_values_top": [
+          [
+            "Tennille",
+            109
+          ],
+          [
+            "Carita",
+            101
+          ],
+          [
+            "Rosalba",
+            101
+          ],
+          [
+            "Wayne",
+            100
+          ],
+          [
+            "Virgie",
+            88
+          ],
+          [
+            "Lavette",
+            87
+          ],
+          [
+            "Jody",
+            81
+          ],
+          [
+            "Mignon",
+            74
+          ],
+          [
+            "Donnetta",
+            68
+          ],
+          [
+            "Evette",
+            58
+          ],
+          [
+            "Roxann",
+            55
+          ],
+          [
+            "Jaime",
+            51
+          ],
+          [
+            "Ressie",
+            49
+          ],
+          [
+            "Jona",
+            39
+          ],
+          [
+            "Tanner",
+            35
+          ]
+        ]
+      },
+      "threshold_0.5": {
+        "recall_by_type": {
+          "given_name": {
+            "found": 425,
+            "total": 2001,
+            "recall": 0.2124,
+            "labels_used": {
+              "PERSON": 336,
+              "LOCATION": 63,
+              "ORGANIZATION": 26
+            }
+          },
+          "full_name": {
+            "found": 1146,
+            "total": 1146,
+            "recall": 1.0,
+            "labels_used": {
+              "PERSON": 1121,
+              "ORGANIZATION": 25
+            }
+          },
+          "encounter_date": {
+            "found": 3141,
+            "total": 3141,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3141
+            }
+          },
+          "birth_date": {
+            "found": 5,
+            "total": 5,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 5
+            }
+          },
+          "death_date": {
+            "found": 1,
+            "total": 1,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 1
+            }
+          },
+          "age_over_89": {
+            "found": 233,
+            "total": 233,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 233
+            }
+          },
+          "age_89_or_under": {
+            "found": 3936,
+            "total": 3936,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3936
+            }
+          }
+        },
+        "phi_spans_total": 6527,
+        "phi_spans_found": 4951,
+        "notes_fully_covered": 1571,
+        "notes": 3147,
+        "flagged_spans": 14717,
+        "flagged_on_phi": 4958,
+        "flagged_on_age_89_or_under": 3936,
+        "false_positives": 5823,
+        "precision_phi_only": 0.3369,
+        "precision_counting_young_ages_as_ok": 0.6043,
+        "false_positive_labels": {
+          "ORGANIZATION": 3644,
+          "DATE_TIME": 1251,
+          "NRP": 383,
+          "LOCATION": 358,
+          "URL": 109,
+          "PERSON": 78
+        },
+        "false_positive_top_texts": {
+          "ORGANIZATION": [
+            [
+              "Dual Eligible",
+              858
+            ],
+            [
+              "Medicaid",
+              731
+            ],
+            [
+              "Medicare",
+              435
+            ],
+            [
+              "unt/ml",
+              354
+            ],
+            [
+              "Humana",
+              327
+            ],
+            [
+              "NO INSURANCE",
+              168
+            ],
+            [
+              "UnitedHealthcare",
+              166
+            ],
+            [
+              "pf",
+              158
+            ]
+          ],
+          "DATE_TIME": [
+            [
+              "28 day",
+              604
+            ],
+            [
+              "2000",
+              190
+            ],
+            [
+              "0.15/30 28 day",
+              149
+            ],
+            [
+              "test-10",
+              91
+            ],
+            [
+              "dast-10",
+              91
+            ],
+            [
+              "24 hr",
+              33
+            ],
+            [
+              "21 day",
+              32
+            ],
+            [
+              "72 hr fentanyl 0.025 mg/hr",
+              12
+            ]
+          ],
+          "URL": [
+            [
+              "reported.ph",
+              86
+            ],
+            [
+              "i.car",
+              23
+            ]
+          ],
+          "LOCATION": [
+            [
+              "Anthem",
+              202
+            ],
+            [
+              "covid-19",
+              72
+            ],
+            [
+              "mrna",
+              62
+            ],
+            [
+              "tdap",
+              15
+            ],
+            [
+              "u.s.",
+              5
+            ],
+            [
+              "new york",
+              2
+            ]
+          ],
+          "PERSON": [
+            [
+              "lnp-s",
+              62
+            ],
+            [
+              "hib",
+              15
+            ],
+            [
+              "bee venom",
+              1
+            ]
+          ],
+          "NRP": [
+            [
+              "asian",
+              163
+            ],
+            [
+              "hispanic",
+              116
+            ],
+            [
+              "nonhispanic asian",
+              104
+            ]
+          ]
+        },
+        "missed_examples": {
+          "given_name": [
+            "'Aron' in: Aron is a 12 year-old nonhispanic white male.",
+            "'Aron' in: Aron is a 13 year-old nonhispanic white male.",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding).",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding), medication r",
+            "'Aron' in: Aron is a 14 year-old nonhispanic white male. Patient has a history of risk activity involvement (finding), medication r"
+          ]
+        },
+        "patients_with_name_mentions": 56,
+        "patients_with_any_missed_name": 38,
+        "patients_with_all_names_missed": 35,
+        "missed_name_values_top": [
+          [
+            "Tennille",
+            109
+          ],
+          [
+            "Carita",
+            101
+          ],
+          [
+            "Rosalba",
+            101
+          ],
+          [
+            "Wayne",
+            100
+          ],
+          [
+            "Virgie",
+            88
+          ],
+          [
+            "Lavette",
+            87
+          ],
+          [
+            "Jody",
+            81
+          ],
+          [
+            "Mignon",
+            74
+          ],
+          [
+            "Donnetta",
+            68
+          ],
+          [
+            "Evette",
+            58
+          ],
+          [
+            "Roxann",
+            55
+          ],
+          [
+            "Jaime",
+            51
+          ],
+          [
+            "Ressie",
+            49
+          ],
+          [
+            "Jona",
+            39
+          ],
+          [
+            "Tanner",
+            35
+          ]
+        ]
+      }
+    },
+    "presidio_sm": {
+      "versions": {
+        "presidio-analyzer": "2.2.364",
+        "spacy": "3.8.16",
+        "en_core_web_sm": "3.8.0"
+      },
+      "seconds": 121.0,
+      "threshold_none": {
+        "recall_by_type": {
+          "given_name": {
+            "found": 633,
+            "total": 2001,
+            "recall": 0.3163,
+            "labels_used": {
+              "PERSON": 511,
+              "ORGANIZATION": 122
+            }
+          },
+          "full_name": {
+            "found": 492,
+            "total": 1146,
+            "recall": 0.4293,
+            "labels_used": {
+              "PERSON": 492
+            }
+          },
+          "encounter_date": {
+            "found": 3141,
+            "total": 3141,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3141
+            }
+          },
+          "birth_date": {
+            "found": 5,
+            "total": 5,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 5
+            }
+          },
+          "death_date": {
+            "found": 1,
+            "total": 1,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 1
+            }
+          },
+          "age_over_89": {
+            "found": 233,
+            "total": 233,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 233
+            }
+          },
+          "age_89_or_under": {
+            "found": 3936,
+            "total": 3936,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3936
+            }
+          }
+        },
+        "phi_spans_total": 6527,
+        "phi_spans_found": 4505,
+        "notes_fully_covered": 1125,
+        "notes": 3147,
+        "flagged_spans": 17006,
+        "flagged_on_phi": 4508,
+        "flagged_on_age_89_or_under": 3936,
+        "false_positives": 8562,
+        "precision_phi_only": 0.2651,
+        "precision_counting_young_ages_as_ok": 0.4965,
+        "false_positive_labels": {
+          "ORGANIZATION": 3208,
+          "PERSON": 2796,
+          "DATE_TIME": 1318,
+          "LOCATION": 547,
+          "NRP": 433,
+          "US_DRIVER_LICENSE": 151,
+          "URL": 109
+        },
+        "false_positive_top_texts": {
+          "ORGANIZATION": [
+            [
+              "Dual Eligible",
+              858
+            ],
+            [
+              "Medicaid",
+              731
+            ],
+            [
+              "Medicare",
+              435
+            ],
+            [
+              "Humana",
+              327
+            ],
+            [
+              "naproxen",
+              224
+            ],
+            [
+              "UnitedHealthcare",
+              166
+            ],
+            [
+              "dipstick",
+              130
+            ],
+            [
+              "Blue Cross Blue Shield",
+              97
+            ]
+          ],
+          "PERSON": [
+            [
+              "Social History\nPatient",
+              2254
+            ],
+            [
+              "Anthem",
+              202
+            ],
+            [
+              "simvastatin",
+              148
+            ],
+            [
+              "insulin isophane",
+              83
+            ],
+            [
+              "hep b",
+              25
+            ],
+            [
+              "Allergies",
+              25
+            ],
+            [
+              "hep",
+              13
+            ],
+            [
+              "Medications",
+              12
+            ]
+          ],
+          "DATE_TIME": [
+            [
+              "28 day",
+              604
+            ],
+            [
+              "21",
+              149
+            ],
+            [
+              "0.15/30 28 day",
+              149
+            ],
+            [
+              "test-10",
+              91
+            ],
+            [
+              "dast-10",
+              91
+            ],
+            [
+              "covid-19",
+              76
+            ],
+            [
+              "1+50 28 day",
+              33
+            ],
+            [
+              "21 day",
+              32
+            ]
+          ],
+          "LOCATION": [
+            [
+              "acetaminophen",
+              496
+            ],
+            [
+              "eclampsia",
+              40
+            ],
+            [
+              "u.s.",
+              5
+            ],
+            [
+              "anesthesia",
+              3
+            ],
+            [
+              "new york",
+              2
+            ],
+            [
+              "cardioplegia",
+              1
+            ]
+          ],
+          "URL": [
+            [
+              "reported.ph",
+              86
+            ],
+            [
+              "i.car",
+              23
+            ]
+          ],
+          "NRP": [
+            [
+              "nonhispanic asian",
+              291
+            ],
+            [
+              "hispanic",
+              116
+            ],
+            [
+              "mcg/0.25ml",
+              26
+            ]
+          ],
+          "US_DRIVER_LICENSE": [
+            [
+              "000813",
+              60
+            ],
+            [
+              "000729",
+              44
+            ],
+            [
+              "000625",
+              32
+            ],
+            [
+              "000833",
+              10
+            ],
+            [
+              "b12",
+              5
+            ]
+          ]
+        },
+        "missed_examples": {
+          "full_name": [
+            "'Agnes Laree' in: Agnes Laree is a 4 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 18 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 20 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 27 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 28 year-old nonhispanic white female."
+          ],
+          "given_name": [
+            "'Carita' in: Carita is a 16 year-old nonhispanic white female.",
+            "'Carita' in: Carita is a 18 year-old nonhispanic white female.",
+            "'Carita' in: Carita is a 22 year-old nonhispanic white female. Patient has a history of educated to high school level (finding).",
+            "'Carita' in: Carita is a 30 year-old nonhispanic white female. Patient has a history of has a criminal record (finding), educated to ",
+            "'Carita' in: Carita is a 35 year-old nonhispanic white female. Patient has a history of has a criminal record (finding), educated to "
+          ]
+        },
+        "patients_with_name_mentions": 56,
+        "patients_with_any_missed_name": 34,
+        "patients_with_all_names_missed": 34,
+        "missed_name_values_top": [
+          [
+            "Corie Sofia",
+            591
+          ],
+          [
+            "Carita",
+            101
+          ],
+          [
+            "Rosalba",
+            101
+          ],
+          [
+            "Wayne",
+            100
+          ],
+          [
+            "Virgie",
+            88
+          ],
+          [
+            "Lavette",
+            87
+          ],
+          [
+            "Jody",
+            81
+          ],
+          [
+            "Donnetta",
+            68
+          ],
+          [
+            "Faustino",
+            65
+          ],
+          [
+            "Agnes Laree",
+            63
+          ],
+          [
+            "Evette",
+            58
+          ],
+          [
+            "Jaime",
+            51
+          ],
+          [
+            "Ressie",
+            49
+          ],
+          [
+            "Jona",
+            39
+          ],
+          [
+            "Rosario",
+            39
+          ]
+        ]
+      },
+      "threshold_0.5": {
+        "recall_by_type": {
+          "given_name": {
+            "found": 633,
+            "total": 2001,
+            "recall": 0.3163,
+            "labels_used": {
+              "PERSON": 511,
+              "ORGANIZATION": 122
+            }
+          },
+          "full_name": {
+            "found": 492,
+            "total": 1146,
+            "recall": 0.4293,
+            "labels_used": {
+              "PERSON": 492
+            }
+          },
+          "encounter_date": {
+            "found": 3141,
+            "total": 3141,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3141
+            }
+          },
+          "birth_date": {
+            "found": 5,
+            "total": 5,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 5
+            }
+          },
+          "death_date": {
+            "found": 1,
+            "total": 1,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 1
+            }
+          },
+          "age_over_89": {
+            "found": 233,
+            "total": 233,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 233
+            }
+          },
+          "age_89_or_under": {
+            "found": 3936,
+            "total": 3936,
+            "recall": 1.0,
+            "labels_used": {
+              "DATE_TIME": 3936
+            }
+          }
+        },
+        "phi_spans_total": 6527,
+        "phi_spans_found": 4505,
+        "notes_fully_covered": 1125,
+        "notes": 3147,
+        "flagged_spans": 16855,
+        "flagged_on_phi": 4508,
+        "flagged_on_age_89_or_under": 3936,
+        "false_positives": 8411,
+        "precision_phi_only": 0.2675,
+        "precision_counting_young_ages_as_ok": 0.501,
+        "false_positive_labels": {
+          "ORGANIZATION": 3208,
+          "PERSON": 2796,
+          "DATE_TIME": 1318,
+          "LOCATION": 547,
+          "NRP": 433,
+          "URL": 109
+        },
+        "false_positive_top_texts": {
+          "ORGANIZATION": [
+            [
+              "Dual Eligible",
+              858
+            ],
+            [
+              "Medicaid",
+              731
+            ],
+            [
+              "Medicare",
+              435
+            ],
+            [
+              "Humana",
+              327
+            ],
+            [
+              "naproxen",
+              224
+            ],
+            [
+              "UnitedHealthcare",
+              166
+            ],
+            [
+              "dipstick",
+              130
+            ],
+            [
+              "Blue Cross Blue Shield",
+              97
+            ]
+          ],
+          "PERSON": [
+            [
+              "Social History\nPatient",
+              2254
+            ],
+            [
+              "Anthem",
+              202
+            ],
+            [
+              "simvastatin",
+              148
+            ],
+            [
+              "insulin isophane",
+              83
+            ],
+            [
+              "hep b",
+              25
+            ],
+            [
+              "Allergies",
+              25
+            ],
+            [
+              "hep",
+              13
+            ],
+            [
+              "Medications",
+              12
+            ]
+          ],
+          "DATE_TIME": [
+            [
+              "28 day",
+              604
+            ],
+            [
+              "21",
+              149
+            ],
+            [
+              "0.15/30 28 day",
+              149
+            ],
+            [
+              "test-10",
+              91
+            ],
+            [
+              "dast-10",
+              91
+            ],
+            [
+              "covid-19",
+              76
+            ],
+            [
+              "1+50 28 day",
+              33
+            ],
+            [
+              "21 day",
+              32
+            ]
+          ],
+          "LOCATION": [
+            [
+              "acetaminophen",
+              496
+            ],
+            [
+              "eclampsia",
+              40
+            ],
+            [
+              "u.s.",
+              5
+            ],
+            [
+              "anesthesia",
+              3
+            ],
+            [
+              "new york",
+              2
+            ],
+            [
+              "cardioplegia",
+              1
+            ]
+          ],
+          "URL": [
+            [
+              "reported.ph",
+              86
+            ],
+            [
+              "i.car",
+              23
+            ]
+          ],
+          "NRP": [
+            [
+              "nonhispanic asian",
+              291
+            ],
+            [
+              "hispanic",
+              116
+            ],
+            [
+              "mcg/0.25ml",
+              26
+            ]
+          ]
+        },
+        "missed_examples": {
+          "full_name": [
+            "'Agnes Laree' in: Agnes Laree is a 4 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 18 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 20 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 27 year-old nonhispanic white female.",
+            "'Agnes Laree' in: Agnes Laree is a 28 year-old nonhispanic white female."
+          ],
+          "given_name": [
+            "'Carita' in: Carita is a 16 year-old nonhispanic white female.",
+            "'Carita' in: Carita is a 18 year-old nonhispanic white female.",
+            "'Carita' in: Carita is a 22 year-old nonhispanic white female. Patient has a history of educated to high school level (finding).",
+            "'Carita' in: Carita is a 30 year-old nonhispanic white female. Patient has a history of has a criminal record (finding), educated to ",
+            "'Carita' in: Carita is a 35 year-old nonhispanic white female. Patient has a history of has a criminal record (finding), educated to "
+          ]
+        },
+        "patients_with_name_mentions": 56,
+        "patients_with_any_missed_name": 34,
+        "patients_with_all_names_missed": 34,
+        "missed_name_values_top": [
+          [
+            "Corie Sofia",
+            591
+          ],
+          [
+            "Carita",
+            101
+          ],
+          [
+            "Rosalba",
+            101
+          ],
+          [
+            "Wayne",
+            100
+          ],
+          [
+            "Virgie",
+            88
+          ],
+          [
+            "Lavette",
+            87
+          ],
+          [
+            "Jody",
+            81
+          ],
+          [
+            "Donnetta",
+            68
+          ],
+          [
+            "Faustino",
+            65
+          ],
+          [
+            "Agnes Laree",
+            63
+          ],
+          [
+            "Evette",
+            58
+          ],
+          [
+            "Jaime",
+            51
+          ],
+          [
+            "Ressie",
+            49
+          ],
+          [
+            "Jona",
+            39
+          ],
+          [
+            "Rosario",
+            39
+          ]
+        ]
+      }
+    }
+  }
+}

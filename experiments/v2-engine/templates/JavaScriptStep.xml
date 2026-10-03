@@ -1,0 +1,4 @@
+<com.mirth.connect.plugins.javascriptstep.JavaScriptStep version="4.5.2">
+  <enabled>true</enabled>
+  <script></script>
+</com.mirth.connect.plugins.javascriptstep.JavaScriptStep>

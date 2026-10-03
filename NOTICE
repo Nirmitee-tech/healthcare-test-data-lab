@@ -1,0 +1,6 @@
+Healthcare Test Data Lab
+Copyright 2026 Nirmitee.io
+
+This product downloads and runs Synthea (https://github.com/synthetichealth/synthea),
+Copyright The MITRE Corporation, licensed under the Apache License 2.0. Synthea is not
+redistributed in this repository.

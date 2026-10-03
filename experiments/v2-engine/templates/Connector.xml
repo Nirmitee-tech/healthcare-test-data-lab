@@ -1,0 +1,4 @@
+<connector version="4.5.2">
+  <enabled>false</enabled>
+  <waitForPrevious>true</waitForPrevious>
+</connector>

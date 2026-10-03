@@ -1,0 +1,54 @@
+US Core resource profiles: 49; populated: 37; never populated: 12
+
+NEVER POPULATED (resource type, profile):
+  Condition                    USCoreConditionProblemsHealthConcernsProfile
+  Coverage                     USCoreCoverageProfile
+  Goal                         USCoreGoalProfile
+  MedicationDispense           USCoreMedicationDispenseProfile
+  Observation                  USCoreBodyTemperatureProfile
+  Observation                  USCoreObservationOccupationProfile
+  Observation                  USCoreObservationPregnancyIntentProfile
+  Observation                  USCoreVitalSignsProfile
+  QuestionnaireResponse        USCoreQuestionnaireResponseProfile
+  RelatedPerson                USCoreRelatedPersonProfile
+  ServiceRequest               USCoreServiceRequestProfile
+  Specimen                     USCoreSpecimenProfile
+
+POPULATED (profile, resources):
+  USCoreAllergyIntolerance                      72
+  USCoreBMIProfile                              573
+  USCoreBloodPressureProfile                    661
+  USCoreBodyHeightProfile                       617
+  USCoreBodyWeightProfile                       653
+  USCoreCarePlanProfile                         203
+  USCoreCareTeam                                203
+  USCoreConditionEncounterDiagnosisProfile      1706
+  USCoreDiagnosticReportProfileLaboratoryReporting 1008
+  USCoreDiagnosticReportProfileNoteExchange     3147
+  USCoreDocumentReferenceProfile                3147
+  USCoreEncounterProfile                        3147
+  USCoreHeadCircumferenceProfile                63
+  USCoreHeartRateProfile                        638
+  USCoreImmunizationProfile                     841
+  USCoreImplantableDeviceProfile                253
+  USCoreLaboratoryResultObservationProfile      19087
+  USCoreLocation                                160
+  USCoreMedicationProfile                       241
+  USCoreMedicationRequestProfile                1232
+  USCoreObservationClinicalResultProfile        146
+  USCoreObservationPregnancyStatusProfile       21
+  USCoreObservationScreeningAssessmentProfile   1913
+  USCoreObservationSexualOrientationProfile     4
+  USCoreOrganizationProfile                     160
+  USCorePatientProfile                          56
+  USCorePediatricBMIforAgeObservationProfile    222
+  USCorePediatricHeadOccipitalFrontalCircumferencePercentileProfile 63
+  USCorePediatricWeightForHeightObservationProfile 63
+  USCorePractitionerProfile                     160
+  USCorePractitionerRoleProfile                 160
+  USCoreProcedureProfile                        7652
+  USCoreProvenance                              56
+  USCorePulseOximetryProfile                    41
+  USCoreRespiratoryRateProfile                  638
+  USCoreSimpleObservationProfile                621
+  USCoreSmokingStatusProfile                    617

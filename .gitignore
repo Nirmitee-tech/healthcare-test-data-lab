@@ -1,0 +1,10 @@
+out/
+tools/*.jar
+.fhircache/
+__pycache__/
+*.pyc
+.DS_Store
+experiments/**/.venv/
+experiments/**/synthea-out/
+experiments/**/tmp/
+experiments/empi/patients/

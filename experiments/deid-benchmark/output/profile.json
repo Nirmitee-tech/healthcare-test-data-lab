@@ -1,0 +1,103 @@
+{
+  "scope": "out/run/fhir-clean, Synthea seed 42, DocumentReference notes; unit = note",
+  "stats": {
+    "bundles": 56,
+    "docref_notes": 3147,
+    "diagreport_copies": 3147,
+    "diagreport_identical": 3147
+  },
+  "notes": 3147,
+  "patients": 56,
+  "notes_containing_type": {
+    "given_name": 2001,
+    "family_name": 0,
+    "maiden_name": 0,
+    "full_name": 1146,
+    "birth_date": 5,
+    "death_date": 1,
+    "encounter_date": 3141,
+    "street_address": 0,
+    "city": 0,
+    "zip": 0,
+    "phone_email": 0,
+    "record_ids": 0,
+    "facility": 0,
+    "practitioner": 0,
+    "age_89_or_under": 3071,
+    "age_over_89": 233
+  },
+  "spans_of_type": {
+    "given_name": 2001,
+    "family_name": 0,
+    "maiden_name": 0,
+    "full_name": 1146,
+    "birth_date": 5,
+    "death_date": 1,
+    "encounter_date": 3141,
+    "street_address": 0,
+    "city": 0,
+    "zip": 0,
+    "phone_email": 0,
+    "record_ids": 0,
+    "facility": 0,
+    "practitioner": 0,
+    "age_89_or_under": 3936,
+    "age_over_89": 233
+  },
+  "generic_pattern_notes": {
+    "any_iso_date": 3147,
+    "any_slash_date": 0,
+    "any_month_name": 0,
+    "phone_like": 0,
+    "ssn_like": 0,
+    "digit_run_5plus": 108,
+    "title_dr_mr_mrs": 0,
+    "street_word": 0,
+    "hospital_word": 0,
+    "email_like": 0,
+    "url_like": 0
+  },
+  "first_line_is_iso_date": 3147,
+  "insurance_names_top": [
+    [
+      "Dual Eligible",
+      858
+    ],
+    [
+      "Medicaid",
+      731
+    ],
+    [
+      "Medicare",
+      435
+    ],
+    [
+      "Humana",
+      327
+    ],
+    [
+      "Anthem",
+      202
+    ],
+    [
+      "NO INSURANCE",
+      168
+    ],
+    [
+      "UnitedHealthcare",
+      166
+    ],
+    [
+      "Blue Cross Blue Shield",
+      97
+    ],
+    [
+      "Aetna",
+      82
+    ],
+    [
+      "Cigna Health",
+      81
+    ]
+  ]
+}

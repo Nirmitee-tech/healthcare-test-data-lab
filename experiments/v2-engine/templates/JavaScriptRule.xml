@@ -1,0 +1,4 @@
+<com.mirth.connect.plugins.javascriptrule.JavaScriptRule version="4.5.2">
+  <enabled>true</enabled>
+  <script></script>
+</com.mirth.connect.plugins.javascriptrule.JavaScriptRule>
